@@ -72,7 +72,7 @@ app.get('/webhook', function(req, res) {
   }  
 });
 
-app.get('/', function(req, res){
+app.get('/bai', function(req, res){
   res.send('This is bailey\'s testbot server');
 });
 
